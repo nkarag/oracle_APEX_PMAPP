@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BC5FB3E-CAE9-CDCB-0ECA-D2C9E6039E40" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="DEVELOPERS">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>DEVELOPERS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>877CB8C3-C83F-E96E-C758-A0657D06BA4F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="00C2F067-34A5-5F83-69EE-3694DC7546CA">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEVELOPERS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>DA81966A-2C75-D491-BCE8-CB3BF551E4F9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY" id="F9C2F1F3-DF9F-1463-888F-BA7BCE302034">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEVELOPERS</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>72849E4B-FAEE-7B76-CE36-EE1E1AF3B534</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="2366CBA2-5B02-600E-5471-2D892A48DE24">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEVELOPERS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>A390AC37-E725-14A6-E800-BF3886B5BA55</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAIL" id="A52E9CF7-3EBF-5F35-64C4-1BCEFCFD01F8">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEVELOPERS</sourceObjSchema>
+<sourceObjName>MAIL</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>5D5B39BA-1C7A-691C-6895-D80A99B0DD70</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8631596-88FA-A149-367A-617405E96285" name="DEVELOPERS_PK">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>DEVELOPERS_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>34AB9721-3994-47D0-5F00-7A857F26E32B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2366CBA2-5B02-600E-5471-2D892A48DE24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBE70D3C-C611-F933-9B14-670E97502B14" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="DEVELOPERS_PK">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>DEVELOPERS_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>63FB734B-32E4-0251-DA5D-CC512DC983DE</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2366CBA2-5B02-600E-5471-2D892A48DE24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

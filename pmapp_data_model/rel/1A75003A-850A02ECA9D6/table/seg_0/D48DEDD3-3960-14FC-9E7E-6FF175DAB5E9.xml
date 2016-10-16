@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D48DEDD3-3960-14FC-9E7E-6FF175DAB5E9" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="DEV_PRJS">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>DEV_PRJS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>ABEE60A1-0818-E19C-49E2-8DB8A5C3254D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRJS_ID" id="89601C98-12FC-B8F2-3E48-B9889DA45A73">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEV_PRJS</sourceObjSchema>
+<sourceObjName>PRJS_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>5E808961-7973-F21C-6398-4CB515B75311</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="240AA0AA-7366-3920-6D6F-05D4AF498046" referredColumn="3B46F782-A3E0-A457-A742-73E9B4C9FE59"/>
+</associations>
+</Column>
+<Column name="START_DATE" id="826412E5-496A-CA8E-A1FD-0CAD6D816330">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEV_PRJS</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>7FAC415C-C04D-FEEA-425D-CC6EEE462123</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="7F7D36C7-3215-6095-15C1-493DF76C1AF1">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEV_PRJS</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>19C7A8B9-F114-3A36-E094-C4D529A04F7E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE" id="B97DCE59-4852-84F6-E671-33DB8256B394">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEV_PRJS</sourceObjSchema>
+<sourceObjName>ROLE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>BE92C5CC-D194-E124-A482-454A07284567</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENT" id="9F4442F1-22D2-40AE-491D-37BA74ED4D90">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEV_PRJS</sourceObjSchema>
+<sourceObjName>COMMENT</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>C2D3B136-473A-1ED0-C1EB-02B54761242F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPERS_ID" id="45D3DE26-CFE5-E3CF-426B-DA23B071864C">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>DEV_PRJS</sourceObjSchema>
+<sourceObjName>DEVELOPERS_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>98D1FCFD-3239-2A2C-9394-9D6CF0D7FFE0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="319FB7F4-CDEE-1B44-817A-075EB342684C" referredColumn="2366CBA2-5B02-600E-5471-2D892A48DE24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="424B12FA-327A-061C-1C76-D56CD1E3E74B" name="DEV_PRJS_PK">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>DEV_PRJS_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>2DD35557-CAF4-FB84-4000-93D1D28603F8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45D3DE26-CFE5-E3CF-426B-DA23B071864C"/>
+<colUsage columnID="89601C98-12FC-B8F2-3E48-B9889DA45A73"/>
+<colUsage columnID="826412E5-496A-CA8E-A1FD-0CAD6D816330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="185B388E-A4FA-C815-FB33-BD780BE63925" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="DEV_PRJS_PK">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>DEV_PRJS_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>1B1E4EA2-EED1-694A-F463-237B2891BED1</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45D3DE26-CFE5-E3CF-426B-DA23B071864C"/>
+<colUsage columnID="89601C98-12FC-B8F2-3E48-B9889DA45A73"/>
+<colUsage columnID="826412E5-496A-CA8E-A1FD-0CAD6D816330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0676DE0-FC1D-C26D-BA7E-04D5D4A91145" name="DEV_PRJS_PRJS_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89601C98-12FC-B8F2-3E48-B9889DA45A73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4013F02B-863E-6BD3-397B-2F71E8328E61" name="DEV_PRJS_DEVELOPERS_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45D3DE26-CFE5-E3CF-426B-DA23B071864C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pmapp_data_model" id="D70839E3-0E6E-824A-C8CF-344BFFC9D8B5" version="3.5">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 15:47:16 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D70839E3-0E6E-824A-C8CF-344BFFC9D8B5</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D36A16B1-7AFE-BD43-C96E-57FB1E604B17">
+<designStoragePath>F:\office_backup\backup\projects\Version_Controlled_Stuff\myrepository\PMAPP</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="883143B4-520A-098F-2BDE-55FA24918862">
+<designStoragePath>F:\office_backup\backup\projects\Version_Controlled_Stuff\myrepository\PMAPP\pmapp_data_model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

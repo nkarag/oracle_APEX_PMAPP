@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="319FB7F4-CDEE-1B44-817A-075EB342684C" containerWithKeyObject="D48DEDD3-3960-14FC-9E7E-6FF175DAB5E9" localFKIndex="4013F02B-863E-6BD3-397B-2F71E8328E61" name="DEV_PRJS_DEVELOPERS_FK">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>DEV_PRJS_DEVELOPERS_FK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>877CB8C3-C83F-E96E-C758-A0657D06BA4F</importedID>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6BC5FB3E-CAE9-CDCB-0ECA-D2C9E6039E40</referredTableID>
+<keyObject>D8631596-88FA-A149-367A-617405E96285</keyObject>
+<referredKeyID>D8631596-88FA-A149-367A-617405E96285</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

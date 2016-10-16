@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="5E06D330-3DAB-8763-FA33-F133C1102C69" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="V_PORTAL_PRJS">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>V_PORTAL_PRJS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>BE6E20C0-C816-272A-BAD1-55F794B99172</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL>CREATE OR REPLACE VIEW V_PORTAL_PRJS&lt;br/&gt;AS &lt;br/&gt;select P.ID, P.BUGZILLA_ID, NAME_DESCRIPTION, PM, BUSINESS_UNIT, BUSINESS_USER,STATUS,START_OF_UAT, GO_LIVE_DATE, NEXT_MILESTONE, NEXT_MSTONE_DATE, &lt;br/&gt; COMMENTS , MAN_DAYS &lt;br/&gt; from pmapp.prjs p&lt;br/&gt; where &lt;br/&gt;    P.IN_PORTAL = &apos;Y&apos; and dept = &apos;FDW&apos;&lt;br/&gt;    AND NOT(&lt;br/&gt;            P.STATUS  = &apos;COMPLETED&apos; &lt;br/&gt;            AND round((sysdate - nvl(P.COMPLETION_DATE, sysdate))/7) &gt; 2    &lt;br/&gt;        )&lt;br/&gt; order by id</userDefinedSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ID" id="C4086BAA-89B5-2E1E-D821-BA38C4597C28">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ID</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>ID</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="BUGZILLA_ID" id="B0F09734-049A-563B-9585-238046F8BB3F">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>BUGZILLA_ID</alias>
+<dataType>VARCHAR2 (10)</dataType>
+<headerAlias>BUGZILLA_ID</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NAME_DESCRIPTION" id="8670B079-B5A0-DEA9-E733-F915233436BF">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>NAME_DESCRIPTION</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<headerAlias>NAME_DESCRIPTION</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PM" id="FE9462AD-C317-E519-115B-D3F865989DC6">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PM</alias>
+<dataType>VARCHAR2 (30)</dataType>
+<headerAlias>PM</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="BUSINESS_UNIT" id="70E37710-3661-8D33-2848-13A1ABF7E728">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>BUSINESS_UNIT</alias>
+<dataType>VARCHAR2 (100)</dataType>
+<headerAlias>BUSINESS_UNIT</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="BUSINESS_USER" id="939A157B-94FF-14D6-B987-7E8F73D59F4B">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>BUSINESS_USER</alias>
+<dataType>VARCHAR2 (100)</dataType>
+<headerAlias>BUSINESS_USER</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="STATUS" id="CBC7C303-017E-A461-875F-C1574C7B1711">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>STATUS</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<headerAlias>STATUS</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="START_OF_UAT" id="EBE4C4DA-65F9-6155-0B66-92DD062A5875">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>START_OF_UAT</alias>
+<dataType>DATE (7)</dataType>
+<headerAlias>START_OF_UAT</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="GO_LIVE_DATE" id="52E42321-CB53-609F-4DAB-F0980E6AB347">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>GO_LIVE_DATE</alias>
+<dataType>DATE (7)</dataType>
+<headerAlias>GO_LIVE_DATE</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NEXT_MILESTONE" id="A6BFA852-2C3F-C7DA-AAF1-D433BCFF1D17">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>NEXT_MILESTONE</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<headerAlias>NEXT_MILESTONE</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NEXT_MSTONE_DATE" id="B9937E9F-E723-97B3-67BC-A9FED2690332">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>NEXT_MSTONE_DATE</alias>
+<dataType>DATE (7)</dataType>
+<headerAlias>NEXT_MSTONE_DATE</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COMMENTS" id="3020D98F-0793-0713-469F-D2A64962E993">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>COMMENTS</alias>
+<dataType>VARCHAR2 (4000)</dataType>
+<headerAlias>COMMENTS</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MAN_DAYS" id="D1A679C2-C8C4-13CA-0684-5463E64DF170">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>MAN_DAYS</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>MAN_DAYS</headerAlias>
+<reference>false</reference>
+<viewID>5E06D330-3DAB-8763-FA33-F133C1102C69</viewID>
+</viewElement>
+</viewElements>
+</TableView>

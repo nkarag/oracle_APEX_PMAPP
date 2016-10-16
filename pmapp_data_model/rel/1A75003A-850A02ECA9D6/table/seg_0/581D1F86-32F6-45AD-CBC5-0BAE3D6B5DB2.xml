@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="581D1F86-32F6-45AD-CBC5-0BAE3D6B5DB2" name="PRJS_DET_COMMENTS">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:33:29 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="964F87D2-AAFE-1C96-F304-3E960CAF6F21">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-05 11:03:11 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRJS_ID" id="B2418EB8-F306-F339-B7EB-4856D9B5EA3A">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:37:14 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21BDD57A-7CC1-BB31-8FEC-6332CC523355" referredColumn="3B46F782-A3E0-A457-A742-73E9B4C9FE59"/>
+</associations>
+</Column>
+<Column name="comments" id="BA9C35FB-D78E-D207-C7BD-99CE0A10AD6A">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:36:31 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_on" id="DF77E74A-4002-CB40-D773-2F03FA2365BC">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:36:31 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_by" id="42F73049-0439-1E2E-B132-3E4FFEAD32FA">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-05 11:00:18 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_on" id="B9DDE04D-F823-0E12-7A5E-55A88C99B041">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-08 13:50:54 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_by" id="9E3F9563-584B-AD52-812D-C9211477BB96">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-08 13:50:54 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0BFEC09-1BFE-39FB-2F7F-3C20089069D6" name="PRJS_DET_COMMENTS_PK">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:37:54 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="964F87D2-AAFE-1C96-F304-3E960CAF6F21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC31C95B-0575-4FC6-6525-99EA7108EC4E" name="PRJS_DET_COMMENTS__UN">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-05 11:02:27 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2418EB8-F306-F339-B7EB-4856D9B5EA3A"/>
+<colUsage columnID="DF77E74A-4002-CB40-D773-2F03FA2365BC"/>
+<colUsage columnID="42F73049-0439-1E2E-B132-3E4FFEAD32FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28DF2082-A049-C904-EDB5-0C066C2F8413" name="PRJS_DET_COMMENTS_PRJS_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:37:14 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2418EB8-F306-F339-B7EB-4856D9B5EA3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

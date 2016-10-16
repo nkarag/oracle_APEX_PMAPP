@@ -1,0 +1,516 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F645407D-9811-9632-A3DD-1F04A2F438E5" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="PRJS">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>PRJS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>8BC81C58-8F11-2474-FAFD-E153E132634B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3B46F782-A3E0-A457-A742-73E9B4C9FE59">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>AA244B40-731D-06AF-2A97-428CF2A60DD7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PRJS_SEQ2</autoIncrementSequenceName>
+<autoIncrementTriggerName>bi_PRJS</autoIncrementTriggerName>
+</Column>
+<Column name="DEPT" id="EBB8FA7F-3ABD-D954-BD5E-B719BFB7FBA4">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>DEPT</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>C3AB1129-7BA8-14F3-3404-90DBFD24F24B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YYCODE" id="FF6AEC88-032B-1365-0E05-B76D1132DD63">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>YYCODE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>5E66E55E-B9E1-F3B0-4B54-C943632AAE9D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME_DESCRIPTION" id="3906906E-51EF-D182-71F7-B82FBC8B11F7">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>NAME_DESCRIPTION</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>8E3835D1-4115-3E71-92F6-517F56880143</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE_C" id="089E7235-CBEB-92E7-8D66-637FF0A2D2D6">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>START_DATE_C</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>36BF1C42-32F0-9DD0-0F79-D64AC7ADF7D5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PM" id="EF987250-5713-0A40-E580-D59D6FD51E64">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>PM</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>7D7890B7-E006-8300-F8E9-E126AFA6950F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90DAD34E-C6F6-D0C6-F0B3-BD3E2AC93DA0" referredColumn="702A7786-1388-81FA-3078-4559AEF128FE"/>
+<colAssociation fkAssociation="452783F9-CFCF-0596-357A-A624CA8328D0" referredColumn="702A7786-1388-81FA-3078-4559AEF128FE"/>
+</associations>
+</Column>
+<Column name="BUSINESS_USER" id="1A6AE114-0C56-588A-19CE-E14B2A976797">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>BUSINESS_USER</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>C0DEA2E6-DE13-C73D-66E8-6094931B8096</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="48BDFA97-5548-A309-835F-2F258D2E51B2">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>8AF67CF4-7A90-200E-885B-92EA8DE00B84</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEXT_MILESTONE" id="68728CA7-A8C5-BB25-75EB-9C7741CB994D">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>NEXT_MILESTONE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>136A3F37-ED89-323C-ADA9-858AE7421AC9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_OF_UAT_C" id="294B4E59-059C-A761-C185-7654EF55D3AE">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>START_OF_UAT_C</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>77EE8802-9C6C-72CF-CAC1-326D005747CF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GO_LIVE_DATE_C" id="7B0F543F-BEEA-3299-27C7-EECE94AB212E">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>GO_LIVE_DATE_C</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>E30DD5F8-0DFF-DCA2-2713-A1A028CB6052</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="559FABC6-4B5A-CEAE-83AB-2FE58B0277C1">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>COMMENTS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>390D1EAB-A21B-3690-99CD-D3A655206784</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUGZILLA_ID" id="5DE64505-8E70-04C1-47E2-5F0ECCC3C071">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>BUGZILLA_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>855B43E8-37BC-AA6A-0143-426428AAB9CB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REMEDY_ID" id="D607C97B-35C1-D5C7-AE27-F376B0FF4CE1">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>REMEDY_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>B8A6224E-0085-EA98-62EA-B28ADAD00A1B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IN_PORTAL" id="A53180FA-240C-98CD-36F0-92B1C7292BF1">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>IN_PORTAL</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>DAC2C683-43A3-5363-255C-3EB2AC7D708C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GO_LIVE_DATE" id="1470F769-4345-35E6-63EF-D64E4A9302C5">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>GO_LIVE_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>7C7D5CE9-887B-D20A-475C-EE73D904848D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_OF_UAT" id="AE2CA3B6-FBF7-E221-D4E9-851856D5F8AE">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>START_OF_UAT</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>960E5043-C8A5-F3F5-D721-E8160204636C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEXT_MSTONE_DATE" id="156321B5-0279-D911-5E09-85A23315E27D">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>NEXT_MSTONE_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>D648D6C8-3904-651A-BA26-005348FD3980</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="6D817DBC-A3B2-F222-29D1-6950145823C5">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>5F9855EC-D470-8C6E-FCCE-DCA7F89D4ED3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_UNIT" id="A276E229-4A6A-B617-906E-81F8414EFC99">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>BUSINESS_UNIT</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>DBAC96B1-56E6-FCE8-0745-65FAF75DE1CE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPLETION_DATE" id="9E79D6F3-02D6-5F3A-FE29-7B95E961A6E4">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>COMPLETION_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>89038B74-B4B4-2552-66C3-BEDB4F590C3C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAN_DAYS" id="F81E715C-40B8-CB93-9FAD-36CE6CA4C82F">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>MAN_DAYS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>EE83743D-73B4-8504-7A32-D3E0405A918E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POPULATION_DATE" id="FCFEA7DE-D59F-B8FA-8C89-D54B41D67A45">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>POPULATION_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>3799FADD-7EC2-A8FA-5C40-41B1346A27E4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="77CAB98D-6D84-E5E5-C092-75229364DBB8">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>4386D425-F002-6C94-0ACC-1920FBF461FC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="5928A89C-AB9F-B27D-33BD-A6515DE110A1">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>UPDATED_BY</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>D6439AFA-2C65-9502-F057-1B790A118FC0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRJ_TYPE" id="FBF0E474-BF91-DC71-8837-D6E5FE122123">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>PRJ_TYPE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>7924F4E5-ED5B-9C55-A24C-F8CD1762A32C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPERATING_PLAN_ID" id="602E81C4-C1FF-EB70-9095-B2D331A8179E">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>OPERATING_PLAN_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>8B49A846-37DD-D4D1-8475-74C587F6547C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAIN_FLOW_AFFECTED" id="55C9F2AD-6C9D-4BF9-A917-A01499996EC2">
+<sourceConnName>EXADWHPRD_HM-PMAPP</sourceConnName>
+<sourceObjSchema>PRJS</sourceObjSchema>
+<sourceObjName>MAIN_FLOW_AFFECTED</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>B884945D-7F79-24CB-E3A1-B8495E15A2EF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13EFF09E-498F-4DFE-FA0A-298EE259CCD0" name="PRJS_PK">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>PRJS_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>84B8D5C9-1A83-2606-2701-F6C2B64F4165</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B46F782-A3E0-A457-A742-73E9B4C9FE59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46F562A4-A7CA-1B25-230F-DF8F7755DD3C" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="PRJS_REMEDY_ID_UN">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>SYS_C00881746</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>410AE16E-B103-F09F-663D-736043819C63</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D607C97B-35C1-D5C7-AE27-F376B0FF4CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BE16605-37FB-77BF-21AC-CE775FADD294" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="PRJS_BUGZILLA_ID_UN">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>SYS_C00881745</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>4EE1497A-F8C9-9578-9035-7545EB1DFD49</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DE64505-8E70-04C1-47E2-5F0ECCC3C071"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D76D50D-DE69-78F7-BD7F-7A696DA72A03" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="PRJS_PK">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>PRJS_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>67F3FEC9-A63B-BB90-285D-9C31EF0BE7BA</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B46F782-A3E0-A457-A742-73E9B4C9FE59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33672799-BBD5-B271-4EAD-D5A972C78BFE" name="PRJS_PMANAGERS_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF987250-5713-0A40-E580-D59D6FD51E64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="067D0F14-BCBF-1F7F-29FD-72C9BD0FB483" name="PRJS_MANAGERS_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF987250-5713-0A40-E580-D59D6FD51E64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

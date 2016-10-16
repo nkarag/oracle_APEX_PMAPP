@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="PMAPP" directorySegmentName="seg_0" id="B0E9BC94-F250-0A89-7042-0323F1736A4A">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>F4674994-AAC1-375E-A329-E2C881B8B244</importedID>
+</SchemaObject>

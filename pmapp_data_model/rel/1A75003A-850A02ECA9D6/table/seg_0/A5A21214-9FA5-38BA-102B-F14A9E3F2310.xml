@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5A21214-9FA5-38BA-102B-F14A9E3F2310" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="PMANAGERS">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>PMANAGERS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>4E2E2B10-683D-0A67-87D0-68284C8C11F5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="702A7786-1388-81FA-3078-4559AEF128FE">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMANAGERS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>7EA1BFB0-651E-2A78-D12F-86854CCA89FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT" id="B90E349C-6DA7-4612-B9F9-C4421FD0D3E4">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMANAGERS</sourceObjSchema>
+<sourceObjName>DEPT</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>97A78AEB-152F-BC94-8A66-064E69510FFF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2CE32A2-87B6-93DE-3B94-2AFCE7E08ABD" referredColumn="B97D6460-286D-8177-2EAD-43BB846F9061"/>
+<colAssociation fkAssociation="90DEC73D-4F4C-611A-598C-AC801CA9CBDE" referredColumn="B97D6460-286D-8177-2EAD-43BB846F9061"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAFC678D-332E-447C-A4DC-3BE7AF72A875" schemaObject="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="PMANAGERS_PK">
+<sourceConnName>EXADWHPRD-NKARAG</sourceConnName>
+<sourceObjSchema>PMAPP</sourceObjSchema>
+<sourceObjName>SYS_C00877473</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<importedID>464FD1B8-8F97-99EB-3C3F-FF7335DA8E82</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="702A7786-1388-81FA-3078-4559AEF128FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59294B00-7E90-5A18-3EE8-337A11FCDCFB" name="PMANAGERS_DEPARTMENTS_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B90E349C-6DA7-4612-B9F9-C4421FD0D3E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="010F212D-C153-2720-1CCF-1A25B2911EA8" name="PMANAGERS_DEPTS_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2016-02-04 16:26:33 UTC</createdTime>
+<ownerDesignName>pmapp_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B90E349C-6DA7-4612-B9F9-C4421FD0D3E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

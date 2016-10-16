@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="B0E9BC94-F250-0A89-7042-0323F1736A4A" name="PMAPP" seqName="seg_0"/>
+   <object objectType="Table" objectID="BAC5AA58-872A-7823-1ED6-9C2B74C9864A" name="DEPARTMENTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6BC5FB3E-CAE9-CDCB-0ECA-D2C9E6039E40" name="DEVELOPERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="D48DEDD3-3960-14FC-9E7E-6FF175DAB5E9" name="DEV_PRJS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A5A21214-9FA5-38BA-102B-F14A9E3F2310" name="PMANAGERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="F645407D-9811-9632-A3DD-1F04A2F438E5" name="PRJS" seqName="seg_0"/>
+   <object objectType="Table" objectID="F1555686-CE3C-9F3E-568D-1D9F27246AE9" name="PRJS_ATTACHMENTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="581D1F86-32F6-45AD-CBC5-0BAE3D6B5DB2" name="PRJS_DET_COMMENTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="9369583E-5CC2-7B46-4BA9-853308D93C60" name="PRJ_HIST" seqName="seg_0"/>
+   <object objectType="View" objectID="5E06D330-3DAB-8763-FA33-F133C1102C69" name="V_PORTAL_PRJS" seqName="seg_0"/>
+   <object objectType="View" objectID="C7BA14B2-EB1B-730F-CB44-B26FB11B3D95" name="V_PROJECTS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="319FB7F4-CDEE-1B44-817A-075EB342684C" name="DEV_PRJS_DEVELOPERS_FK" seqName="seg_0" containerID="D48DEDD3-3960-14FC-9E7E-6FF175DAB5E9" refContainerID="6BC5FB3E-CAE9-CDCB-0ECA-D2C9E6039E40"/>
+   <object objectType="FKIndexAssociation" objectID="240AA0AA-7366-3920-6D6F-05D4AF498046" name="DEV_PRJS_PRJS_FK" seqName="seg_0" containerID="D48DEDD3-3960-14FC-9E7E-6FF175DAB5E9" refContainerID="F645407D-9811-9632-A3DD-1F04A2F438E5"/>
+   <object objectType="FKIndexAssociation" objectID="E2CE32A2-87B6-93DE-3B94-2AFCE7E08ABD" name="PMANAGERS_DEPARTMENTS_FK" seqName="seg_0" containerID="A5A21214-9FA5-38BA-102B-F14A9E3F2310" refContainerID="BAC5AA58-872A-7823-1ED6-9C2B74C9864A"/>
+   <object objectType="FKIndexAssociation" objectID="90DEC73D-4F4C-611A-598C-AC801CA9CBDE" name="PMANAGERS_DEPTS_FK" seqName="seg_0" containerID="A5A21214-9FA5-38BA-102B-F14A9E3F2310" refContainerID="BAC5AA58-872A-7823-1ED6-9C2B74C9864A"/>
+   <object objectType="FKIndexAssociation" objectID="D5A40F29-F79F-3F37-93CE-6FD6BD711110" name="PRJS_ATTACHMENTS_PRJS_FK" seqName="seg_0" containerID="F1555686-CE3C-9F3E-568D-1D9F27246AE9" refContainerID="F645407D-9811-9632-A3DD-1F04A2F438E5"/>
+   <object objectType="FKIndexAssociation" objectID="21BDD57A-7CC1-BB31-8FEC-6332CC523355" name="PRJS_DET_COMMENTS_PRJS_FK" seqName="seg_0" containerID="581D1F86-32F6-45AD-CBC5-0BAE3D6B5DB2" refContainerID="F645407D-9811-9632-A3DD-1F04A2F438E5"/>
+   <object objectType="FKIndexAssociation" objectID="90DAD34E-C6F6-D0C6-F0B3-BD3E2AC93DA0" name="PRJS_MANAGERS_FK" seqName="seg_0" containerID="F645407D-9811-9632-A3DD-1F04A2F438E5" refContainerID="A5A21214-9FA5-38BA-102B-F14A9E3F2310"/>
+   <object objectType="FKIndexAssociation" objectID="452783F9-CFCF-0596-357A-A624CA8328D0" name="PRJS_PMANAGERS_FK" seqName="seg_0" containerID="F645407D-9811-9632-A3DD-1F04A2F438E5" refContainerID="A5A21214-9FA5-38BA-102B-F14A9E3F2310"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
